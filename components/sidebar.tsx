@@ -25,13 +25,13 @@ export default function Sidebar({ activeSection, isOpen, onToggle, onClose }: Si
     onClose() // Close sidebar after navigation on mobile
   }
 
-  const handleDownloadResume = () => {
-    // Create a dummy PDF download
-    const link = document.createElement("a")
-    link.href = "/resume.pdf"
-    link.download = "Alex_Johnson_Resume.pdf"
-    link.click()
-  }
+  // const handleDownloadResume = () => {
+  //   // Create a dummy PDF download
+  //   const link = document.createElement("a")
+  //   link.href = "/resume.pdf"
+  //   link.download = "Alex_Johnson_Resume.pdf"
+  //   link.click()
+  // }
 
   // Close sidebar when clicking outside
   useEffect(() => {
@@ -115,7 +115,7 @@ export default function Sidebar({ activeSection, isOpen, onToggle, onClose }: Si
               >
                 <div className="w-24 h-24 mx-auto rounded-full overflow-hidden border-2 border-primary shadow-lg shadow-primary/50">
                   <img
-                    src="/backend-developer-portrait.png"
+                    src="/picture.png"
                     alt={siteConfig.name}
                     className="w-full h-full object-cover"
                   />
@@ -167,7 +167,7 @@ export default function Sidebar({ activeSection, isOpen, onToggle, onClose }: Si
               </motion.div>
             </div>
 
-            {/* Navigation */}
+            
             <nav className="flex-1 p-6">
               <ul className="space-y-2">
                 {siteConfig.navigation.map((item, index) => (

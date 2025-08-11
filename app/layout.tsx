@@ -56,11 +56,11 @@ export const metadata: Metadata = {
   generator: 'v0.dev',
   icons: {
     icon: [
-      { url: '/favicon.ico', sizes: '16x16 32x32', type: 'image/x-icon' },
-      { url: '/favicon.svg', type: 'image/svg+xml' }
+      { url: '/favicon-1.png', sizes: '16x16 32x32', type: 'image/x-icon' },
+      { url: '/favicon-1.png', type: 'image/svg+xml' }
     ],
     apple: [
-      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }
+      { url: '/favicon-1.png', sizes: '180x180', type: 'image/png' }
     ]
   }
 }
@@ -121,9 +121,9 @@ export default function RootLayout({
       <head>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <link rel="canonical" href={siteConfig.seo.canonical} />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/x-icon" href="/favicon-1.png" />
+        <link rel="icon" type="image/svg+xml" href="/favicon-1.png" />
+        <link rel="apple-touch-icon" href="/favicon-1.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#3b82f6" />
         <meta name="msapplication-TileColor" content="#3b82f6" />

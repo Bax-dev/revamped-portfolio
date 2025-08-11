@@ -27,7 +27,7 @@ export default function About() {
           >
             <div className="relative">
               <img
-                src="/backend-developer-workspace.png"
+                src="/about.jpg"
                 alt="Backend Developer and Mechatronics Engineer workspace with multiple monitors, code, and electronic components"
                 className="w-full h-80 object-cover rounded-lg border border-primary/30 shadow-lg"
               />
@@ -42,9 +42,11 @@ export default function About() {
               </div>
               <div className="absolute bottom-4 right-4 flex flex-wrap gap-2">
                 <span className="bg-primary/90 text-primary-foreground px-2 py-1 rounded text-xs font-medium">
-                  Arduino
+                  TypeScript
                 </span>
-                <span className="bg-primary/90 text-primary-foreground px-2 py-1 rounded text-xs font-medium">IoT</span>
+                <span className="bg-primary/90 text-primary-foreground px-2 py-1 rounded text-xs font-medium">
+                  SQL
+                </span>
               </div>
             </div>
           </motion.div>
