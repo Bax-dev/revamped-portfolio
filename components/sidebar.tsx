@@ -146,13 +146,13 @@ export default function Sidebar({ activeSection, isOpen, onToggle, onClose }: Si
                 transition={{ duration: 0.5, delay: 0.5 }}
                 className="space-y-3"
               >
-                <Button
+                {/* <Button
                   onClick={handleDownloadResume}
                   className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-medium py-2 px-4 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-primary/30"
                 >
                   <Download className="w-4 h-4 mr-2" />
                   Download Resume
-                </Button>
+                </Button> */}
 
                 {/* Dark Mode Toggle */}
                 <Button
@@ -161,7 +161,7 @@ export default function Sidebar({ activeSection, isOpen, onToggle, onClose }: Si
                   className="w-full border-primary/30 hover:bg-primary/10 transition-all duration-300"
                 >
                   <Sun className="h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-                  <Moon className="absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+                  <Moon className="absolute h-2 w-2 top-1/2 -translate-x-1/2 -translate-y-1/2 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
                   <span className="ml-2">{theme === "dark" ? "Light Mode" : "Dark Mode"}</span>
                 </Button>
               </motion.div>

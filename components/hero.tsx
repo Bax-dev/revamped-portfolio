@@ -173,8 +173,8 @@ export default function Hero() {
             transition={{ duration: 1, delay: 1.5 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
           >
-            <Button
-              onClick={() => scrollToSection("contact")}
+            {/* <Button
+              onClick={() => scrollToSection("#contact")}
               size="lg"
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 text-lg font-semibold"
             >
@@ -193,7 +193,7 @@ export default function Hero() {
             >
               <Download className="w-5 h-5 mr-2" />
               Download Resume
-            </Button>
+            </Button> */}
           </motion.div>
 
           {/* Scroll Indicator */}
